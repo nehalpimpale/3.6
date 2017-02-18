@@ -62,6 +62,7 @@ Overloading3.java:3: error: method add(int,int) is already defined in class A st
 Q2.
 
 import java.util.Arrays; 
+
 import java.util.Scanner;
 
 public class acad 
@@ -71,10 +72,14 @@ public static void main(String[] args)
 
 { 
 
-   Scanner sc=new Scanner(System.in); 
+   Scanner sc=new Scanner(System.in);
+   
    int n=sc.nextInt(); //size of array 
+   
    int[] arr=new int[n]; 
+   
    int[] arr1=new int[n]; 
+   
    for(int i=0;i=0;i--) 
 
 { 
