@@ -71,21 +71,21 @@ public static void main(String[] args)
 
 { 
 
-Scanner sc=new Scanner(System.in); 
-int n=sc.nextInt(); //size of array 
-int[] arr=new int[n]; 
-int[] arr1=new int[n]; 
-for(int i=0;i=0;i--) 
+   Scanner sc=new Scanner(System.in); 
+   int n=sc.nextInt(); //size of array 
+   int[] arr=new int[n]; 
+   int[] arr1=new int[n]; 
+   for(int i=0;i=0;i--) 
 
 { 
 
-arr1[j]=arr[i]; //Storing elements in reverse order(Descending) 
-j++; 
+   arr1[j]=arr[i]; //Storing elements in reverse order(Descending) 
+   j++; 
 
 } 
 
-for(int x : arr1)
-System.out.println(x); //Displaying array elements in descending order sc.close(); 
+   for(int x : arr1)
+   System.out.println(x); //Displaying array elements in descending order sc.close(); 
 
 } 
 
