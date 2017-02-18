@@ -35,17 +35,20 @@ class A
   
     return a+b;
   } 
+  
   static double add(int a,int b)
   {
   
     return a+b;
   } 
+  
 } 
 
 class B
 {
 
   public static void main(String[] args)
+  
   { 
   
     System.out.println(Adder.add(11,11));     //ambiguity 
