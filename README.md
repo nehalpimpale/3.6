@@ -41,6 +41,7 @@ class A
     return a+b;
   } 
 } 
+
 class B
 {
 
@@ -49,6 +50,7 @@ class B
   
     System.out.println(Adder.add(11,11));     //ambiguity 
   }
+  
 } 
 
 In this when code is compiled it will show error as: 
