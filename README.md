@@ -7,11 +7,13 @@ The return value alone is not sufficient for the compiler to figure out which fu
 
 public int foo() 
 {
+
   ...
 } 
 public float foo() 
 
 {
+
   ..
 } 
   ... 
@@ -27,19 +29,24 @@ overloading with different return type will give following error
 
 class A
 { 
+
   static int add(int a,int b)
   {
+  
     return a+b;
   } 
   static double add(int a,int b)
   {
+  
     return a+b;
   } 
 } 
 class B
 {
+
   public static void main(String[] args)
   { 
+  
     System.out.println(Adder.add(11,11));     //ambiguity 
   }
 } 
